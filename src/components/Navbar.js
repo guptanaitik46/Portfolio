@@ -35,7 +35,7 @@ const NavLinks = styled.div`
 const SocialLinks = styled.div`
   display: flex;
   gap: 1rem;
-  margin-right: 5rem;
+  margin-right: 3rem;
   
   a {
     color: white;
