@@ -23,7 +23,7 @@ const Card = styled(motion.div)`
 
 const achievements = [
   { icon: <FaTrophy />, title: 'Solved 500+ DSA Problems', desc: 'Across LeetCode, GFG, CodeForces, and CodeChef' },
-  { icon: <FaMedal />, title: 'Global Rank 329', desc: 'Among 38,000+ Participants' },
+  { icon: <FaMedal />,  title: 'Global Rank 329',  desc: 'Among 38,000+ participants in a CodeChef Weekly Contest' },
   { icon: <FaUsers />, title: 'Mentored 600+ Students', desc: '52,000+ Views on YouTube' },
 ];
 
