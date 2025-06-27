@@ -5,7 +5,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Contact from './components/Contact';
-import StarsCanvas from './components/StarsCanvas';
 import Achievements from './components/Achievements';
 import styled, { createGlobalStyle } from 'styled-components';
 
@@ -30,13 +29,12 @@ function App() {
   return (
     <AppContainer>
       <GlobalStyle />
-      <StarsCanvas />
       <Navbar />
       <Hero />
       <Skills />
       <Projects />
-      <Education />
       <Achievements />
+      <Education />
       <Contact />
     </AppContainer>
   );
