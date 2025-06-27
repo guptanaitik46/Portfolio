@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';
+import  Tilt  from 'react-parallax-tilt';
 import styled from 'styled-components';
 import { SiTailwindcss, SiNextdotjs, SiVite, SiExpress, SiMongodb, SiPostgresql, SiPrisma, SiCplusplus, SiC, SiTypescript } from 'react-icons/si';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaDocker, FaDatabase, FaCuttlefish, FaPlus } from 'react-icons/fa';
