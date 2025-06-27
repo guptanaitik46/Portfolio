@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Tilt } from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 import myphoto from '../assets/myphoto.jpg';
