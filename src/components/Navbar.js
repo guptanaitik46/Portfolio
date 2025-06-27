@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { FaHome, FaCode, FaGraduationCap, FaEnvelope, FaMedal, FaGithub, FaLinkedin, FaYoutube, FaBars, FaTimes } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si';
+import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si';
 
 const Nav = styled.nav`
   position: fixed;
@@ -35,7 +35,7 @@ const NavLinks = styled.div`
 const SocialLinks = styled.div`
   display: flex;
   gap: 1rem;
-  margin-right: 3rem;
+  margin-right: 5rem;
   
   a {
     color: white;
@@ -102,6 +102,7 @@ function Navbar() {
         <a href="https://linkedin.com/in/gupta-naitik/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="https://www.youtube.com/@conceptfeelers" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         <a href="https://leetcode.com/u/guptanaitik46/" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
+        <a href="https://auth.geeksforgeeks.org/user/guptanaitik46/practice" target="_blank" rel="noopener noreferrer"><SiGeeksforgeeks /></a>
         <a href="mailto:guptanaitik46@gmail.com"><FaEnvelope /></a>
       </SocialLinks>
     </Nav>
