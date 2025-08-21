@@ -24,7 +24,7 @@ const Card = styled(motion.div)`
 const achievements = [
   { icon: <FaMedal />,  title: 'Global Rank 96 (Top 0.6%)',  desc: 'Among 15,000+ participants in a CodeChef Starters 194 Contest' },
   { icon: <FaMedal />,  title: 'Global Rank 329 (Top 0.8%)',  desc: 'Among 38,000+ participants in a CodeChef Starters 148 Contest' },
-  { icon: <FaTrophy />, title: 'Solved 500+ DSA Problems', desc: 'Across LeetCode, GFG, and CodeChef' },
+  { icon: <FaTrophy />, title: 'Solved 600+ DSA Problems', desc: 'Across LeetCode, GFG, and CodeChef' },
   { icon: <FaUsers />, title: 'Mentored 700+ Students', desc: '58,000+ Views on YouTube' },
 ];
 
@@ -43,4 +43,5 @@ function Achievements() {
 }
 
 export default Achievements;
+
 
