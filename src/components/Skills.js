@@ -2,7 +2,8 @@ import React from 'react';
 import  Tilt  from 'react-parallax-tilt';
 import styled from 'styled-components';
 import { SiTailwindcss, SiNextdotjs, SiVite, SiExpress, SiMongodb, SiPostgresql, SiPrisma, SiCplusplus, SiC, SiTypescript } from 'react-icons/si';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaUserLock, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaUserLock, FaDatabase, FaTrophy, FaUsers } from 'react-icons/fa';
+
 import { motion } from 'framer-motion';
 
 const Section = styled.section`
@@ -129,5 +130,6 @@ function Skills() {
 }
 
 export default Skills;
+
 
 
