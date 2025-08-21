@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
-import { FaHome, FaCode, FaGraduationCap, FaEnvelope, FaMedal, FaGithub, FaLinkedin, FaYoutube, FaBars, FaTimes } from 'react-icons/fa';
+import { FaHome, FaCode, FaGraduationCap, FaEnvelope, FaMedal, FaGithub, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
 import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si';
 
 const Nav = styled.nav`
@@ -100,7 +100,7 @@ function Navbar() {
       <SocialLinks open={menuOpen}>
         <a href="https://github.com/guptanaitik46" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
         <a href="https://linkedin.com/in/gupta-naitik/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://www.youtube.com/@conceptfeelers" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+        // <a href="https://www.youtube.com/@conceptfeelers" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         <a href="https://leetcode.com/u/guptanaitik46/" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
         <a href="https://auth.geeksforgeeks.org/user/guptanaitik46/practice" target="_blank" rel="noopener noreferrer"><SiGeeksforgeeks /></a>
         <a href="mailto:guptanaitik46@gmail.com"><FaEnvelope /></a>
@@ -110,3 +110,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
