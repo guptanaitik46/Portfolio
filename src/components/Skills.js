@@ -95,6 +95,15 @@ const categories = [
       { name: 'Clerk Auth', icon: <FaUserLock /> },
     ],
   },
+  {
+    title: 'Core Subjects',
+    skills: [
+      { name: 'Data Structures & Algorithms', icon: <FaDatabase /> },
+      { name: 'OOPs', icon: <FaUserLock /> },
+      { name: 'Operating Systems', icon: <FaTrophy /> },
+      { name: 'Database Management', icon: <FaUsers /> },
+    ],
+  },
 ];
 
 function Skills() {
@@ -120,4 +129,5 @@ function Skills() {
 }
 
 export default Skills;
+
 
