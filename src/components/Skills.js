@@ -2,7 +2,7 @@ import React from 'react';
 import  Tilt  from 'react-parallax-tilt';
 import styled from 'styled-components';
 import { SiTailwindcss, SiNextdotjs, SiVite, SiExpress, SiMongodb, SiPostgresql, SiPrisma, SiCplusplus, SiC, SiTypescript } from 'react-icons/si';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaDocker, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaUserLock, FaDatabase } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const Section = styled.section`
@@ -64,8 +64,8 @@ const categories = [
     skills: [
       { name: 'C', icon: <SiC size={16} color="#ffffff" /> },
       { name: 'C++', icon: <SiCplusplus size={16} color="#ffffff" /> },
-      { name: 'TypeScript', icon: <SiTypescript size={13} color="#ffffff" /> },
       { name: 'JavaScript', icon: <FaJs /> },
+      { name: 'TypeScript', icon: <SiTypescript size={13} color="#ffffff" /> },
     ],
   },
   {
@@ -76,25 +76,23 @@ const categories = [
       { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
       { name: 'React', icon: <FaReact /> },
       { name: 'Next.js', icon: <SiNextdotjs /> },
-      { name: 'Vite', icon: <SiVite /> },
     ],
   },
   {
     title: 'Backend',
     skills: [
       { name: 'Node.js', icon: <FaNodeJs /> },
-      { name: 'Express.js', icon: <SiExpress /> },
       { name: 'MongoDB', icon: <SiMongodb /> },
       { name: 'PostgreSQL', icon: <SiPostgresql /> },
-      { name: 'Prisma', icon: <SiPrisma /> },
+      { name: 'Prisma ORM', icon: <SiPrisma /> },
     ],
   },
   {
     title: 'Tools',
     skills: [
       { name: 'GitHub', icon: <FaGithub /> },
-      { name: 'Docker', icon: <FaDocker /> },
       { name: 'Photoshop', icon: <FaDatabase /> },
+      { name: 'Clerk Auth', icon: <FaUserLock /> },
     ],
   },
 ];
@@ -122,3 +120,4 @@ function Skills() {
 }
 
 export default Skills;
+
