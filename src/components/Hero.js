@@ -24,7 +24,7 @@ function Hero() {
         <h2>
           <Typewriter
             options={{
-              strings: ['Full Stack Developer', 'Programming Enthusiast', 'DSA Problem Solver', 'Open Source Contributor'],
+              strings: ['Full Stack Developer', 'Programming Enthusiast', 'DSA Problem Solver', 'Mentor on YouTube'],
               autoStart: true,
               loop: true,
             }}
@@ -41,3 +41,4 @@ function Hero() {
 }
 
 export default Hero;
+
