@@ -89,14 +89,6 @@ const categories = [
     ],
   },
   {
-    title: 'Tools',
-    skills: [
-      { name: 'GitHub', icon: <FaGithub /> },
-      { name: 'Photoshop', icon: <FaDatabase /> },
-      { name: 'Clerk Auth', icon: <FaUserLock /> },
-    ],
-  },
-  {
     title: 'Core Subjects',
     skills: [
       { name: 'Data Structures & Algorithms', icon: <FaDatabase /> },
@@ -105,6 +97,14 @@ const categories = [
       { name: 'Database Management', icon: <FaUsers /> },
     ],
   },
+  {
+    title: 'Tools',
+    skills: [
+      { name: 'GitHub', icon: <FaGithub /> },
+      { name: 'Photoshop', icon: <FaDatabase /> },
+      { name: 'Clerk Auth', icon: <FaUserLock /> },
+    ],
+  },  
 ];
 
 function Skills() {
@@ -130,6 +130,7 @@ function Skills() {
 }
 
 export default Skills;
+
 
 
 
